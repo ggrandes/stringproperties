@@ -11,8 +11,14 @@ StringProperties is Java Properties with Extra Features. Open Source Java projec
 #### Usage Example
 
 ```java
+import org.infra.stringproperties.StringProperties;
+
 public class Example {
 	public static void main(final String[] args) throws Throwable {
+		StringProperties p = new StringProperties();
+		p.setProperty("state", "awake");
+		p.setProperty("msg", "Hi ${user.name}, how are you ${state}?");
+		System.out.println(p.getPropertyEval("msg"));
 	}
 }
 ```

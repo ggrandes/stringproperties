@@ -85,6 +85,7 @@
 							<head>ThreadSafe:</head>
 						</tag>
 					</tags>
+					<excludePackageNames>*.sandbox.*</excludePackageNames>
 				</configuration>
 			</plugin>
 		</plugins>

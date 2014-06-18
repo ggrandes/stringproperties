@@ -1,4 +1,4 @@
-package org.infra.stringproperties;
+package org.javastack.stringproperties;
 
 import java.io.PrintStream;
 import java.io.StringReader;
@@ -11,12 +11,12 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.infra.mapexpression.InvalidExpression;
-import org.infra.mapexpression.MapExpression;
-import org.infra.mapexpression.mapper.MultiMapper;
-import org.infra.mapexpression.mapper.SystemPropertyMapper;
-import org.infra.stringproperties.util.EnumeratorAdapter;
-import org.infra.stringproperties.util.StringMapPersist;
+import org.javastack.mapexpression.InvalidExpression;
+import org.javastack.mapexpression.MapExpression;
+import org.javastack.mapexpression.mapper.MultiMapper;
+import org.javastack.mapexpression.mapper.SystemPropertyMapper;
+import org.javastack.stringproperties.util.EnumeratorAdapter;
+import org.javastack.stringproperties.util.StringMapPersist;
 
 /**
  * The <code>StringProperties</code> class represents a persistent set of string properties. The

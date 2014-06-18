@@ -25,7 +25,7 @@
  * CA 95054 USA or visit www.sun.com if you need additional information or
  * have any questions.
  */
-package org.infra.stringproperties.util;
+package org.javastack.stringproperties.util;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

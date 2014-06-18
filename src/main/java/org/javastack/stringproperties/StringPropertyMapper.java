@@ -1,6 +1,6 @@
-package org.infra.stringproperties;
+package org.javastack.stringproperties;
 
-import org.infra.mapexpression.mapper.Mapper;
+import org.javastack.mapexpression.mapper.Mapper;
 
 public class StringPropertyMapper implements Mapper {
 	private final StringProperties prop;

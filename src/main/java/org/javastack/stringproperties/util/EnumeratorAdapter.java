@@ -1,4 +1,4 @@
-package org.infra.stringproperties.util;
+package org.javastack.stringproperties.util;
 
 import java.util.Enumeration;
 import java.util.Iterator;

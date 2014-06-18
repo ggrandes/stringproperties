@@ -1,4 +1,4 @@
-package org.infra.stringproperties;
+package org.javastack.stringproperties;
 
 import java.util.Collection;
 import java.util.Collections;

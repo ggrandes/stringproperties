@@ -1,6 +1,6 @@
-package org.infra.stringproperties.example;
+package org.javastack.stringproperties.example;
 
-import org.infra.stringproperties.StringProperties;
+import org.javastack.stringproperties.StringProperties;
 
 /**
  * Example of View and SubViews (a subset of keys)

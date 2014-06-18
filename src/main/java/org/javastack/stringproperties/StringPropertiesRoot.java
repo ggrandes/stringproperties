@@ -1,4 +1,4 @@
-package org.infra.stringproperties;
+package org.javastack.stringproperties;
 
 import java.io.IOException;
 import java.io.InputStream;

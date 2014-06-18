@@ -2,7 +2,7 @@
 
 StringProperties is Java Properties with Extra Features. Open Source Java project under Apache License v2.0
 
-### Current Stable Version is [1.0.0](https://maven-release.s3.amazonaws.com/release/org/infra/stringproperties/1.0.0/stringproperties-1.0.0.jar)
+### Current Stable Version is [1.0.1](https://maven-release.s3.amazonaws.com/release/org/javastack/stringproperties/1.0.1/stringproperties-1.0.1.jar)
 
 ---
 
@@ -11,7 +11,7 @@ StringProperties is Java Properties with Extra Features. Open Source Java projec
 #### Usage Example
 
 ```java
-import org.infra.stringproperties.StringProperties;
+import org.javastack.stringproperties.StringProperties;
 
 public class Example {
 	public static void main(final String[] args) throws Throwable {
@@ -23,7 +23,7 @@ public class Example {
 }
 ```
 
-* More examples in [Example package](https://github.com/ggrandes/stringproperties/tree/master/src/main/java/org/infra/stringproperties/example/)
+* More examples in [Example package](https://github.com/ggrandes/stringproperties/tree/master/src/main/java/org/javastack/stringproperties/example/)
 
 ---
 
@@ -41,9 +41,9 @@ Add the maven repository location to your pom.xml:
 Add the dependency to your pom.xml:
 
     <dependency>
-        <groupId>org.infra</groupId>
+        <groupId>org.javastack</groupId>
         <artifactId>stringproperties</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </dependency>
 
 ---

@@ -19,8 +19,6 @@
 		<developer>
 			<name>ggrandes</name>
 			<email>guillermo.grandes@gmail.com</email>
-			<organization>JavaStack</organization>
-			<organizationUrl>https://github.com/ggrandes/</organizationUrl>
 		</developer>
 	</developers>
 	<scm>

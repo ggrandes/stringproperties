@@ -2,7 +2,7 @@
 
 StringProperties is Java Properties with Extra Features. Open Source Java project under Apache License v2.0
 
-### Current Stable Version is [1.0.1](https://maven-release.s3.amazonaws.com/release/org/javastack/stringproperties/1.0.1/stringproperties-1.0.1.jar)
+### Current Stable Version is [1.0.1](http://search.maven.org/remotecontent?filepath=org/javastack/stringproperties/1.0.1/stringproperties-1.0.1.jar)
 
 ---
 

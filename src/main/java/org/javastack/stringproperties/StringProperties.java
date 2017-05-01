@@ -15,8 +15,8 @@ import org.javastack.mapexpression.InvalidExpression;
 import org.javastack.mapexpression.MapExpression;
 import org.javastack.mapexpression.mapper.MultiMapper;
 import org.javastack.mapexpression.mapper.SystemPropertyMapper;
+import org.javastack.stringmappersist.StringMapPersist;
 import org.javastack.stringproperties.util.EnumeratorAdapter;
-import org.javastack.stringproperties.util.StringMapPersist;
 
 /**
  * The <code>StringProperties</code> class represents a persistent set of string properties. The

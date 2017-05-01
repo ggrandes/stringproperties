@@ -34,6 +34,11 @@
 			<artifactId>mapexpression</artifactId>
 			<version>1.0.2</version>
 		</dependency>
+		<dependency>
+			<groupId>org.javastack</groupId>
+			<artifactId>stringmappersist</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

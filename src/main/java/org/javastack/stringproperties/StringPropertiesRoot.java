@@ -29,7 +29,8 @@ public class StringPropertiesRoot extends StringProperties {
 
 	/**
 	 * Get a Map View of StringPropertiesRoot
-	 * @return
+	 * 
+	 * @return root view of the map
 	 */
 	public RootViewMap getRootViewAsMap() {
 		return new RootViewMap(this);

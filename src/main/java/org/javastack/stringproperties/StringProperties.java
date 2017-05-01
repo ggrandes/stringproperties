@@ -24,21 +24,23 @@ import org.javastack.stringproperties.util.EnumeratorAdapter;
  * the property list is a string.
  * 
  * <p>
- * Why this? standard java.util.Properties extends Hashtable <lu>
+ * Why this? standard java.util.Properties extends Hashtable 
+ * <ul>
  * <li>no order</li>
- * <li>you can put no-string keys/values</li> </lu>
+ * <li>you can put no-string keys/values</li>
+ * </ul>
  * 
  * <p>
  * <code>StringProperties</code> NOT inherits from <code>Hashtable</code> or <code>Map</code>, to avoid
  * problems in legacy <code>Properties</code> object that can contains a non-<code>String</code> key or value.
  * 
  * <p>
- * The {@link #load(java.io.StringReader) load(StringReader)} <tt>/</tt>
- * {@link #store(java.io.Writer, java.lang.String) store(Writer, String)} methods load and store properties
+ * The {@link StringMapPersist#load(java.io.Reader) load(Reader)} <tt>/</tt>
+ * {@link StringMapPersist#store(java.io.Writer, java.lang.String) store(Writer, String)} methods load and store properties
  * from and to a character based stream in a simple line-oriented format specified below.
  * 
- * The {@link #load(java.io.InputStream) load(InputStream)} <tt>/</tt>
- * {@link #store(java.io.OutputStream, java.lang.String) store(OutputStream, String)} methods work the same
+ * The {@link StringMapPersist#load(java.io.InputStream) load(InputStream)} <tt>/</tt>
+ * {@link StringMapPersist#store(java.io.OutputStream, java.lang.String) store(OutputStream, String)} methods work the same
  * way as the load(Reader)/store(Writer, String) pair, except the input/output stream is encoded in ISO-8859-1
  * character encoding. Characters that cannot be directly represented in this encoding can be written using <a
  * href="http://java.sun.com/docs/books/jls/third_edition/html/lexical.html#3.3">Unicode escapes</a> ; only a

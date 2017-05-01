@@ -8,7 +8,7 @@
 	<description>StringProperties is Java Properties with Extra Features</description>
 
 	<name>${project.groupId}:${project.artifactId}</name>
-	<url>https://github.com/ggrandes/stringproperties</url>
+	<url>https://github.com/ggrandes/${project.artifactId}</url>
 	<licenses>
 		<license>
 			<name>The Apache License, Version 2.0</name>
@@ -23,9 +23,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git@github.com:ggrandes/stringproperties.git</connection>
-		<developerConnection>scm:git:git@github.com:ggrandes/stringproperties.git</developerConnection>
-		<url>git@github.com:ggrandes/stringproperties.git</url>
+		<connection>scm:git:git@github.com:ggrandes/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:ggrandes/${project.artifactId}.git</developerConnection>
+		<url>git@github.com:ggrandes/${project.artifactId}.git</url>
 	</scm>
 
 	<dependencies>
